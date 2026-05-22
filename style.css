@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+            body {
+                font-family: Georgia, serif;
+                background-color: #f3f4f6;
+                color: #374151;
+            }
+
+            .pagina {
+                max-width: 720px;
+                margin: 40px auto;
+                background-color: #ffffff;
+                border: 1px solid #e5e7eb;
+                border-radius: 8px;
+                overflow: hidden;
+            }
+
+            header {
+                background-color: #2563eb;
+                color: #ffffff;
+                padding: 32px 36px;
+            }
+
+            .header-topo {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+
+            .header-topo img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                border: 3px solid #ffffff;
+                object-fit: cover;
+            }
+
+            header h1 {
+                font-size: 1.7rem;
+                margin-bottom: 6px;
+            }
+
+            header .subtitulo {
+                font-size: 0.9rem;
+                opacity: 0.85;
+            }
+
+            header h2 {
+                font-size: 0.85rem;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                opacity: 0.7;
+                margin-bottom: 8px;
+            }
+
+            header p {
+                font-size: 0.9rem;
+                line-height: 1.7;
+                opacity: 0.9;
+                margin-bottom: 6px;
+            }
+
+            main {
+                padding: 32px 36px;
+            }
+
+            img {
+                transform: scale(1.0);
+                transition: 0.75s ease;
+            }
+
+            img:hover {
+                transform: scale(1.2);
+                border-radius: 0%;
+            }
+
+
+            .secao1 {
+                display: flex;
+                gap: 25px;
+            }
+
+            .secao {
+                margin-bottom: 28px;
+                flex: 1;
+                transition: 0.5s ease;
+            }
+
+            .secao h2 {
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: #2563eb;
+                border-bottom: 2px solid #2563eb;
+                padding-bottom: 5px;
+                margin-bottom: 12px;
+            }
+
+            .secao h3 {
+                font-size: 1rem;
+                margin-bottom: 4px;
+            }
+
+            .secao p {
+                font-size: 0.9rem;
+                line-height: 1.6;
+            }
+
+            .secao ul {
+                padding-left: 20px;
+                font-size: 0.9rem;
+                line-height: 1.9;
+            }
+
+            .secao:hover {
+                transform: scale(1.05);
+                background-color: #fbfbfb;
+                border-radius: 15px;
+            }
+
+            footer {
+                background-color: #f3f4f6;
+                border-top: 1px solid #e5e7eb;
+                padding: 18px 36px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 0.85rem;
+            }
+
+            footer a {
+                color: #2563eb;
+                text-decoration: none;
+                font-weight: bold;
+                transition: 0.3s ease;
+            }
+
+            footer a:hover {
+                text-decoration: underline;
+                color: #1f51bb;
+            }
+
+            footer p {
+                color: #9ca3af;
+            }
